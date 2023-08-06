@@ -1,0 +1,39 @@
+﻿@model LoginModel
+@{}
+
+<form asp-action="Login">
+  <div class="row m-1 g-3">
+    <div class="col-sm-6 offset-sm-3">
+      <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    </div>
+  </div>
+
+  <div class="row m-1 g-3">
+    <div class="col-sm-6 offset-sm-3">
+      <label asp-for="UserName" class="form-label"></label>
+      <input asp-for="UserName" class="form-control" value="user1" />
+      <span asp-validation-for="UserName" class="text-danger"></span>
+    </div>
+  </div>
+  <div class="row m-1 g-3">
+    <div class="col-sm-6 offset-sm-3">
+      <label asp-for="Password" class="form-label"></label>
+      <input asp-for="Password" class="form-control" value="password1" />
+      <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+  </div>
+  <div class="row m-1 g-3">
+    <div class="col-sm-6 offset-sm-3">
+      <button type="submit" class="btn btn-primary">ログイン</button>
+    </div>
+  </div>
+  <div class="row m-1 g-3">
+    <div class="col-sm-6 offset-sm-3">
+      <a asp-controller="Home" asp-action="Index">認証が必要な画面へ直接リンク</a>
+    </div>
+  </div>
+</form>
+
+@section Scripts {
+  @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+}

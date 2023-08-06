@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+		<Description>Cookie 認証 を使用してログインの仕組みを作り、認証していない場合リダイレクトされる仕組みを作るサンプルです。</Description>
+		<Company>ソーサリーフォース (https://sorceryforce.net/)</Company>
+		<Authors>ソーサリーフォース (おのでら)</Authors>
+		<Copyright>Copyright (C) 2023-2023 ソーサリーフォース (おのでら)</Copyright>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\lib\" />
+  </ItemGroup>
+
+</Project>

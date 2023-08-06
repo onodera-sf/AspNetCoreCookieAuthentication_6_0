@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33712.159
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreCookieAuthenticationRazorPages", "AspNetCoreCookieAuthenticationRazorPages\AspNetCoreCookieAuthenticationRazorPages.csproj", "{B6D2BE3B-6CDC-4211-A161-166818796D11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreCookieAuthenticationMvc", "AspNetCoreCookieAuthenticationMvc\AspNetCoreCookieAuthenticationMvc.csproj", "{80742D72-165F-4B3C-98C9-70FE1082B650}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6D2BE3B-6CDC-4211-A161-166818796D11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6D2BE3B-6CDC-4211-A161-166818796D11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6D2BE3B-6CDC-4211-A161-166818796D11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6D2BE3B-6CDC-4211-A161-166818796D11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80742D72-165F-4B3C-98C9-70FE1082B650}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80742D72-165F-4B3C-98C9-70FE1082B650}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80742D72-165F-4B3C-98C9-70FE1082B650}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80742D72-165F-4B3C-98C9-70FE1082B650}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {366BEE70-7F42-4803-BB9C-098585D55A96}
+	EndGlobalSection
+EndGlobal
